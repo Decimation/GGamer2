@@ -28,7 +28,7 @@ def main():
     wait = WebDriverWait(driver, 10)
     # Wait until an element with the CSS selector 'button' is located
     # element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button')))
-
+    # wait.until(EC.presence_of_element_located())
     tg = [ee for ee in el if ('Log in' in ee.text)]
     print(tg)
 
